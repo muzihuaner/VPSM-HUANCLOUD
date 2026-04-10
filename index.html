@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>欢云 HUANCLOUD-智在云端，欢享无限</title>
+    <meta name="keywords" content="便宜服务器,云服务器,服务器,云计算,欢云,国外服务器,香港服务器,HUANCLOUD,VPS,Server" />
+    <meta name="description" content="我们致力于提供高性价比的服务器。">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+  <!-- 生产 -->
+  <!-- <link rel="stylesheet" href="/home/default/styles.css"> -->
+  <!-- 开发 -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- 顶部导航栏 (Top App Bar) -->
+  <header id="topAppBar" class="top-app-bar">
+    <div class="top-app-bar__content">
+      <a href="#" class="top-app-bar__brand">
+        <span class="material-icons-round top-app-bar__logo">cloud</span>
+        <span class="top-app-bar__title">HUANCLOUD</span>
+      </a>
+      <nav class="top-app-bar__nav">
+        <a href="#home-products" class="top-app-bar__link">产品服务</a>
+        <a href="#solutions" class="top-app-bar__link">解决方案</a>
+        <a href="#contact" class="top-app-bar__link">联系我们</a>
+        <a href="#about" class="top-app-bar__link">关于我们</a>
+      </nav>
+      <div class="top-app-bar__actions">
+        <a href="/app#/user/login" class="md3-btn md3-btn--tonal">登录</a>
+        <a href="/app#/user/register" class="md3-btn md3-btn--filled">注册</a>
+      </div>
+      <button id="menuBtn" class="top-app-bar__menu-btn" aria-label="菜单">
+        <span class="material-icons-round">menu</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- 侧边导航抽屉 (Navigation Drawer) -->
+  <div id="navDrawer" class="nav-drawer">
+    <div class="nav-drawer__scrim" id="drawerScrim"></div>
+    <nav class="nav-drawer__content">
+      <div class="nav-drawer__header">
+        <span class="material-icons-round nav-drawer__logo">cloud</span>
+        <span class="nav-drawer__title">HUANCLOUD</span>
+      </div>
+      <a href="#home-products" class="nav-drawer__item" data-nav>
+        <span class="material-icons-round">devices</span>
+        <span>产品服务</span>
+      </a>
+      <a href="#solutions" class="nav-drawer__item" data-nav>
+        <span class="material-icons-round">lightbulb</span>
+        <span>解决方案</span>
+      </a>
+      <a href="#contact" class="nav-drawer__item" data-nav>
+        <span class="material-icons-round">contact_mail</span>
+        <span>联系我们</span>
+      </a>
+      <a href="#about" class="nav-drawer__item" data-nav>
+        <span class="material-icons-round">info</span>
+        <span>关于我们</span>
+      </a>
+      <div class="nav-drawer__divider"></div>
+      <a href="/app#/user/login" class="nav-drawer__item">
+        <span class="material-icons-round">login</span>
+        <span>用户登录</span>
+      </a>
+      <a href="/app#/user/register" class="nav-drawer__item">
+        <span class="material-icons-round">person_add</span>
+        <span>用户注册</span>
+      </a>
+      <a href="/app#/user/forgot" class="nav-drawer__item">
+        <span class="material-icons-round">lock_reset</span>
+        <span>找回密码</span>
+      </a>
+      <div class="nav-drawer__divider"></div>
+      <a href="/app#/user/service_terms" class="nav-drawer__item">
+        <span class="material-icons-round">description</span>
+        <span>服务条款</span>
+      </a>
+      <a href="/app#/user/privacy_policy" class="nav-drawer__item">
+        <span class="material-icons-round">privacy_tip</span>
+        <span>隐私政策</span>
+      </a>
+    </nav>
+  </div>
+
+  <main>
+    <!-- Hero 区域 -->
+    <section id="hero" class="hero-section">
+      <div class="hero-section__background"></div>
+      <div class="hero-section__content">
+        <div class="hero-section__text">
+          <h1 class="hero-section__headline">智在云端，欢享无限</h1>
+          <p class="hero-section__subhead">用稳定和性价比，助力您快速上云</p>
+        </div>
+        <div class="hero-section__actions">
+          <a href="#home-products" class="md3-btn md3-btn--filled md3-btn--lg">
+            <span class="material-icons-round">arrow_downward</span>
+            查看产品
+          </a>
+          <a href="/app#/user/login" class="md3-btn md3-btn--outlined md3-btn--lg">
+            <span class="material-icons-round">terminal</span>
+            进入控制台
+          </a>
+        </div>
+        <div class="hero-section__stats">
+          <div class="stat-card">
+            <span class="stat-card__value">99.99%</span>
+            <span class="stat-card__label">服务可用性</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__value">7×24</span>
+            <span class="stat-card__label">技术支持</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-card__value">50+</span>
+            <span class="stat-card__label">全球节点</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+
+    <!-- 产品服务 -->
+    <section id="home-products" class="section section--alt">
+      <div class="section__container">
+        <div class="section__header">
+          <span class="section__overline">PRODUCTS</span>
+          <h2 class="section__title">产品服务</h2>
+          <p class="section__subtitle">面向企业与开发者提供完整的基础设施产品矩阵</p>
+        </div>
+        <div class="product-grid">
+          <div class="md3-card product-card">
+            <div class="product-card__icon">
+              <span class="material-icons-round">dns</span>
+            </div>
+            <h3 class="product-card__title">云服务器</h3>
+            <p class="product-card__desc">高可用计算资源，支持多地域部署与灵活规格组合。</p>
+            <div class="product-card__footer">
+              <span class="product-card__tag">计算优化</span>
+              <span class="product-card__tag product-card__tag--highlight">核心产品</span>
+            </div>
+            <a href="/app#/user/console" class="product-card__link">
+              <span class="material-icons-round">open_in_new</span>
+              进入控制台
+            </a>
+          </div>
+          <div class="md3-card product-card">
+            <div class="product-card__icon">
+              <span class="material-icons-round">computer</span>
+            </div>
+            <h3 class="product-card__title">VPS 主机</h3>
+            <p class="product-card__desc">高性能虚拟专用服务器，独立资源保障稳定运行。</p>
+            <div class="product-card__footer">
+              <span class="product-card__tag">独立资源</span>
+              <span class="product-card__tag product-card__tag--highlight">高性价比</span>
+            </div>
+            <a href="/app#/user/console" class="product-card__link">
+              <span class="material-icons-round">open_in_new</span>
+              进入控制台
+            </a>
+          </div>
+          <div class="md3-card product-card">
+            <div class="product-card__icon">
+              <span class="material-icons-round">security</span>
+            </div>
+            <h3 class="product-card__title">SSL 证书</h3>
+            <p class="product-card__desc">快速部署 HTTPS 加密，保障数据传输安全与用户信任。</p>
+            <div class="product-card__footer">
+              <span class="product-card__tag">安全加密</span>
+              <span class="product-card__tag product-card__tag--highlight">信任保障</span>
+            </div>
+            <a href="/app#/user/console" class="product-card__link">
+              <span class="material-icons-round">open_in_new</span>
+              进入控制台
+            </a>
+          </div>
+          <div class="md3-card product-card">
+            <div class="product-card__icon">
+              <span class="material-icons-round">public</span>
+            </div>
+            <h3 class="product-card__title">全球加速CDN</h3>
+            <p class="product-card__desc">多节点链路调度与内容加速，提升跨区域访问体验。</p>
+            <div class="product-card__footer">
+              <span class="product-card__tag">网络优化</span>
+              <span class="product-card__tag product-card__tag--highlight">低延迟</span>
+            </div>
+            <a href="/app#/user/console" class="product-card__link">
+              <span class="material-icons-round">open_in_new</span>
+              进入控制台
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 解决方案 -->
+    <section id="solutions" class="section">
+      <div class="section__container">
+        <div class="section__header">
+          <span class="section__overline">SOLUTIONS</span>
+          <h2 class="section__title">行业解决方案</h2>
+          <p class="section__subtitle">覆盖互联网、电商、金融、教育等典型业务场景</p>
+        </div>
+        <div class="solutions-grid">
+          <div class="md3-card solution-card">
+            <div class="solution-card__icon">
+              <span class="material-icons-round">language</span>
+            </div>
+            <h3 class="solution-card__title">互联网平台</h3>
+            <p class="solution-card__desc">支持高并发访问和弹性扩缩容，保障活动峰值稳定运行。</p>
+          </div>
+          <div class="md3-card solution-card">
+            <div class="solution-card__icon">
+              <span class="material-icons-round">shopping_cart</span>
+            </div>
+            <h3 class="solution-card__title">电商业务</h3>
+            <p class="solution-card__desc">结合缓存与加速能力，优化核心交易链路响应速度。</p>
+          </div>
+          <div class="md3-card solution-card">
+            <div class="solution-card__icon">
+              <span class="material-icons-round">account_balance</span>
+            </div>
+            <h3 class="solution-card__title">金融系统</h3>
+            <p class="solution-card__desc">通过网络隔离与审计能力，满足稳定性与安全性需求。</p>
+          </div>
+          <div class="md3-card solution-card">
+            <div class="solution-card__icon">
+              <span class="material-icons-round">school</span>
+            </div>
+            <h3 class="solution-card__title">在线教育</h3>
+            <p class="solution-card__desc">保障课程直播与资源分发质量，提升终端访问体验。</p>
+          </div>
+          <div class="md3-card solution-card">
+            <div class="solution-card__icon">
+              <span class="material-icons-round">sports_esports</span>
+            </div>
+            <h3 class="solution-card__title">游戏业务</h3>
+            <p class="solution-card__desc">多线路接入与节点调度，降低跨地区网络波动影响。</p>
+          </div>
+          <div class="md3-card solution-card">
+            <div class="solution-card__icon">
+              <span class="material-icons-round">corporate_fare</span>
+            </div>
+            <h3 class="solution-card__title">企业内部系统</h3>
+            <p class="solution-card__desc">统一部署运维与权限控制，提升组织协作和交付效率。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="section section--alt">
+      <div class="section__container">
+        <div class="section__header">
+          <span class="section__overline">CONTACT</span>
+          <h2 class="section__title">联系我们</h2>
+          <p class="section__subtitle">欢迎通过账号系统与平台服务取得联系</p>
+        </div>
+        <div class="contact-grid">
+          <div class="md3-card contact-card">
+            <div class="contact-card__icon">
+              <span class="material-icons-round">chat</span>
+            </div>
+            <h3 class="contact-card__title">售前咨询</h3>
+            <p class="contact-card__desc">按业务规模与场景提供产品组合建议与成本评估。</p>
+          </div>
+          <div class="md3-card contact-card">
+            <div class="contact-card__icon">
+              <span class="material-icons-round">build</span>
+            </div>
+            <h3 class="contact-card__title">技术支持</h3>
+            <p class="contact-card__desc">提供故障定位、性能调优与架构优化支持服务。</p>
+          </div>
+          <div class="md3-card contact-card">
+            <div class="contact-card__icon">
+              <span class="material-icons-round">confirmation_number</span>
+            </div>
+            <h3 class="contact-card__title">工单系统</h3>
+            <p class="contact-card__desc">通过控制台提交工单，统一跟踪处理进度与结果。</p>
+          </div>
+        </div>
+        <div class="contact-actions">
+          <a href="/app#/user/login" class="md3-btn md3-btn--filled md3-btn--lg">
+            <span class="material-icons-round">dashboard</span>
+            进入控制台
+          </a>
+        </div>
+      </div>
+    </section>
+
+      <!-- 关于我们 -->
+    <section id="about" class="section">
+      <div class="section__container">
+        <div class="section__header">
+          <span class="section__overline">ABOUT US</span>
+          <h2 class="section__title">关于我们</h2>
+          <p class="section__subtitle">专注提供国内与海外基础设施服务，覆盖云服务器、存储、网络加速与运维支持。</p>
+        </div>
+        <div class="about-grid">
+          
+          </div>
+          <div class="about-grid__features">
+            <div class="md3-card feature-card">
+              <div class="feature-card__icon" style="--md-sys-color-primary: #0061A4;">
+                <span class="material-icons-round">security</span>
+              </div>
+              <h3 class="feature-card__title">安全合规</h3>
+              <p class="feature-card__desc">多层网络防护、访问控制与备份策略，降低业务风险。</p>
+            </div>
+            <div class="md3-card feature-card">
+              <div class="feature-card__icon" style="--md-sys-color-primary: #0061A4;">
+                <span class="material-icons-round">swap_horiz</span>
+              </div>
+              <h3 class="feature-card__title">弹性扩展</h3>
+              <p class="feature-card__desc">按需扩容计算与网络资源，满足不同阶段业务增长。</p>
+            </div>
+            <div class="md3-card feature-card">
+              <div class="feature-card__icon" style="--md-sys-color-primary: #0061A4;">
+                <span class="material-icons-round">speed</span>
+              </div>
+              <h3 class="feature-card__title">高性能节点</h3>
+              <p class="feature-card__desc">多地域节点覆盖，提供稳定低延迟的计算网络体验。</p>
+            </div>
+            <div class="md3-card feature-card">
+              <div class="feature-card__icon" style="--md-sys-color-primary: #0061A4;">
+                <span class="material-icons-round">support_agent</span>
+              </div>
+              <h3 class="feature-card__title">技术支持</h3>
+              <p class="feature-card__desc">售前到售后全流程支持，快速响应业务问题与故障。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 底部 -->
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="material-icons-round footer__logo">cloud</span>
+          <h3 class="footer__title">HUANCLOUD</h3>
+          <p class="footer__desc">智在云端，欢享无限</p>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__heading">页面导航</h4>
+          <ul>
+            <li><a href="#home-products">产品服务</a></li>
+            <li><a href="#solutions">解决方案</a></li>
+            <li><a href="#contact">联系我们</a></li>
+            <li><a href="#about">关于我们</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4 class="footer__heading">账号入口</h4>
+          <ul>
+            <li><a href="/app#/user/login">用户登录</a></li>
+            <li><a href="/app#/user/register">用户注册</a></li>
+            <li><a href="/app#/user/service_terms">服务条款</a></li>
+            <li><a href="/app#/user/privacy_policy">隐私政策</a></li>
+          </ul>
+        </div>
+        <!-- <div class="footer__links">
+          <h4 class="footer__heading">管理入口</h4>
+          <ul>
+            <li><a href="/app#/admin/login">管理员登录</a></li>
+            <li><a href="/app#/user/forgot">找回密码</a></li>
+          </ul>
+        </div>
+      </div> -->
+      <div class="footer__bottom">
+        <div class="footer__contact">
+          <div class="footer__contact-item">
+            <span class="material-icons-round">email</span>
+            <a href="mailto:admin@huancloud.cn">admin@huancloud.cn</a>
+          </div>
+        </div>
+        <div class="footer__copyright">
+          <p>Copyright &copy; <span id="footer-year"></span> HUANCLOUD. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 回到顶部 FAB -->
+  <button id="scrollTopFab" class="md3-fab" aria-label="回到顶部">
+    <span class="material-icons-round">keyboard_arrow_up</span>
+  </button>
+<!-- 生产 -->
+  <!-- <script src="/home/default/app.js"></script> -->
+  <!-- 开发 -->
+  <script src="app.js"></script>
+</body>
+</html>
