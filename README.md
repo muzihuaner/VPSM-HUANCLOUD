@@ -20,7 +20,7 @@
 
 ### 上传至服务器
 
-将所有文件上传至 `/opt/vpsmb/home/default/` 目录：
+将所有文件上传至 `/opt/vpsmb/home/huancloud/` 目录：
 
 ---
 
