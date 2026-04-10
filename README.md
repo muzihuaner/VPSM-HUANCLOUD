@@ -3,6 +3,7 @@
 > 智在云端，欢享无限！
 
 基于 Material Design 3 设计规范构建的现代化云服务网站首页主题，为 VPSM 面板量身定制。
+![ 欢云 HUANCLOUD-智在云端，欢享无限](https://files.seeusercontent.com/2026/04/10/hGz2/FireShot-Capture-003-HUANCLOUD-b.png)
 
 ## ✨ 特性
 
